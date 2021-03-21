@@ -1,0 +1,107 @@
+body{
+    font-family: 'Cormorant', serif;
+background-color: antiquewhite;
+
+}
+
+.main{
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+header h1{
+
+    font-size: 50px;
+}
+
+header p{
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.pads{
+    background: dimgray;
+    width: 100%;
+    display: flex;
+    margin-top: 500px;
+}
+
+.pads > div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+
+.pad1{
+    background-color: cornflowerblue;
+    height: 100px;
+    width: 100px;
+   
+}
+
+.pad2{
+    background-color: crimson;
+    height: 100px;
+    width: 100px;
+ 
+}
+
+.pad3{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 100px;
+  
+}
+
+.pad4{
+    background-color: darkseagreen;
+    height: 100px;
+    width: 100px;
+  
+}
+
+.pad5{
+    background-color: rgb(56, 6, 77);
+    height: 100px;
+    width: 100px;
+
+}
+
+.pad6{
+    background-color: darkturquoise;
+    height: 100px;
+    width: 100px;
+ 
+}
+
+
+.visual > div {
+    position: absolute;
+    bottom: 0%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: scale(1);
+    z-index: -1;
+  }
+
+@keyframes jump {
+    0% {
+      bottom: 0%;
+      left: 20%;
+    }
+    50% {
+      bottom: 50%;
+      left: 50%;
+    }
+  
+    100% {
+      bottom: 00%;
+      left: 80%;
+    }
+  }
